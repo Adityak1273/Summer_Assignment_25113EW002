@@ -3,7 +3,7 @@ int main(){
     int n1,copy=0,n2;
     printf("Enter the total elements ,You want to enter in a array : ");
     scanf("%d",&n1);
-    int arr[n1],sum=0,avg=0;
+    int arr[n1];
     for(int i=0;i<n1;i++){
         printf("Enter the element : ");
         scanf("%d",&n2);
